@@ -1,2 +1,5 @@
 node_modules
 .vscode
+
+# config info
+config/default.json
