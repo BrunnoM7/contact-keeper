@@ -1,4 +1,5 @@
 {
   "comment": "This is a mockup file containing the required config parameters in order to the app work as intended",
-  "mongoURI": ""
+  "mongoURI": "DB url",
+  "jwtSecret": "jsonwebtoken secret"
 }
