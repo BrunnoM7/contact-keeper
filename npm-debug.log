@@ -10,7 +10,7 @@
 6 silly lifecycle contact-keeper@1.0.0~predev: no script for predev, continuing
 7 info lifecycle contact-keeper@1.0.0~dev: contact-keeper@1.0.0
 8 verbose lifecycle contact-keeper@1.0.0~dev: unsafe-perm in lifecycle true
-9 verbose lifecycle contact-keeper@1.0.0~dev: PATH: /Users/brunno.marchetti/.nvm/versions/node/v6.14.4/lib/node_modules/npm/bin/node-gyp-bin:/Users/brunno.marchetti/Documents/materiais-brunno/estudo/react-projects/contact-keeper/node_modules/.bin:/usr/local/opt/php@7.2/sbin:/usr/local/opt/php@7.2/bin:/usr/local/opt/mysql@5.7/bin:/Users/brunno.marchetti/.nvm/versions/node/v6.14.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/php@7.2/sbin:/usr/local/opt/php@7.2/bin:/usr/local/opt/mysql@5.7/bin:/Users/brunno.marchetti/.nvm/versions/node/v6.14.4/bin
+9 verbose lifecycle contact-keeper@1.0.0~dev: PATH: /Users/brunno.marchetti/.nvm/versions/node/v6.14.4/lib/node_modules/npm/bin/node-gyp-bin:/Users/brunno.marchetti/Documents/materiais-brunno/estudo/react-projects/contact-keeper/node_modules/.bin:/usr/local/opt/php@7.2/sbin:/usr/local/opt/php@7.2/bin:/usr/local/opt/mysql@5.7/bin:/Users/brunno.marchetti/.nvm/versions/node/v6.14.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 10 verbose lifecycle contact-keeper@1.0.0~dev: CWD: /Users/brunno.marchetti/Documents/materiais-brunno/estudo/react-projects/contact-keeper
 11 silly lifecycle contact-keeper@1.0.0~dev: Args: [ '-c', 'concurrently "npm run server" "npm run client"' ]
 12 silly lifecycle contact-keeper@1.0.0~dev: Returned: code: 1  signal: null
