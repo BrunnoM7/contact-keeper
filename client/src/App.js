@@ -2,6 +2,7 @@ import { Fragment } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import ContactState from './context/contact/ContactState';
+import AuthState from './context/auth/AuthState';
 
 import Navbar from './components/layout/Navbar';
 import Home from './components/pages/Home';
@@ -11,20 +12,22 @@ import './App.css';
 
 const App = () => {
   return (
-    <ContactState>
-      <BrowserRouter>
-        <Fragment>
-          <Navbar />
-          <div className="container">
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/about" component={About} />
+    <AuthState>
+      <ContactState>
+        <BrowserRouter>
+          <Fragment>
+            <Navbar />
+            <div className="container">
+              <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/about" component={About} />
 
-            </Switch>
-          </div>
-        </Fragment>
-      </BrowserRouter>
-    </ContactState>
+              </Switch>
+            </div>
+          </Fragment>
+        </BrowserRouter>
+      </ContactState>
+    </AuthState>
   );
 }
 
