@@ -13,4 +13,4 @@ node_modules
 
 # config info
 config/default.json
-npm-debug.log
+config/production.json
